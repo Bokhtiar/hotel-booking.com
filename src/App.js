@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { About } from '../src/pages/About/index'
+import { Home } from '../src/pages/Home/index'
+import { MainLayout } from '../src/layouts/main.layout'
 
-function App() {
+import { Navigate, useRoutes } from "react-router-dom";
+import { permittedRoutes } from '../src/routes/index'
+
+export const App = ()=> {
+  const mainRoutes = {
+    path: "/",
+    element: <MainLayout />,
+    children: [
+      { path: "*", element: <Navigate to="/404" /> },
+      { path: "", element: <Home /> },
+      { path: "about", element: <About /> },
+    ],
+  };
+
+  const routing = useRoutes([mainRoutes, ...permittedRoutes()]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>{routing}</>  
   );
 }
 
-export default App;
+

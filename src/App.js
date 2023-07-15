@@ -1,10 +1,9 @@
 import './App.css';
-import { About } from '../src/pages/About/index'
 import { Home } from '../src/pages/Home/index'
-import { MainLayout } from '../src/layouts/main.layout'
-
-import { Navigate, useRoutes } from "react-router-dom";
+import { About } from '../src/pages/About/index'
 import { permittedRoutes } from '../src/routes/index'
+import { Navigate, useRoutes } from "react-router-dom";
+import { MainLayout } from './layouts/user/partial/main.layout';
 
 export const App = ()=> {
   const mainRoutes = {

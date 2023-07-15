@@ -1,13 +1,12 @@
-import { Outlet } from "react-router-dom";
-// import { MainNavbar } from "components/navbar";
-// import { Footer } from "components/footer";
+import { Link, Outlet } from "react-router-dom";
+import { Header } from "./header";
 
 export const MainLayout = () => {
     return (
         <>
             {/* <MainNavbar /> */}
-            <h3>Header</h3>
-            <div className="mt-[88px]">
+            <Header></Header>
+            <div className="">
                 <Outlet />
             </div>
             {/* <Footer /> */}

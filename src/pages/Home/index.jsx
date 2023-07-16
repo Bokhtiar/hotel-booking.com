@@ -761,8 +761,6 @@ export const Home = () => {
           </div>
         </section>
       </section>
-
-      
     </section>
   );
 };

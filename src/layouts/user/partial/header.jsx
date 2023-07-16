@@ -3,7 +3,7 @@ export const Header = () => {
   return (
     <section>
       {/* top navbar */}
-      <section className=" bg-primary text-white py-5 font-roboto">
+      <section className=" bg-primary text-white py-5 font-roboto ">
         <div className="md:flex justify-between container items-center">
           {/*location phone */}
           {/* location */}
@@ -44,8 +44,8 @@ export const Header = () => {
       </section>
 
       {/* navbar */}
-      <section className=" bg-white">
-        <div className="navbar bg-base-100 container md:py-6 py-3">
+      <section className=" bg-gray-50">
+        <div className="navbar container md:py-6 py-3">
           <div className="navbar-start">
             <Link to="/" className="btn btn-ghost p-0">
               <img className="h-7 md:h-12" src="/images/logo.png" alt="" />

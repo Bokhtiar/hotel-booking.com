@@ -100,160 +100,164 @@ export const Home = () => {
       </div>
 
       {/* about section */}
-      <section className="mt-80 md:mt-48 container ">
-        <div className="  grid grid-cols-2 md:grid-cols-7 gap-4">
-          <div className="col-span-3">
-            <div className="">
-              <img className=" rounded" src="/images/a1.jpg" alt="" />
+      <section className="text-gray-50">
+        <section className="mt-80 md:mt-48 container ">
+          <div className="  grid grid-cols-2 md:grid-cols-7 gap-4">
+            <div className="col-span-3">
+              <div className="">
+                <img className=" rounded" src="/images/a1.jpg" alt="" />
+              </div>
+              <div className="grid grid-cols-2 mt-4 items-center gap-5">
+                <img className="rounded" src="/images/a2.jpg" alt="" />
+                <img className="rounded" src="/images/a2.jpg" alt="" />
+              </div>
             </div>
-            <div className="grid grid-cols-2 mt-4 items-center gap-5">
-              <img className="rounded" src="/images/a2.jpg" alt="" />
-              <img className="rounded" src="/images/a2.jpg" alt="" />
+            {/* image  */}
+            {/* about section */}
+            <div className=" col-span-4">
+              {/* title */}
+              <span className=" text-secondary text-2xl font-roboto font-bold">
+                About Us
+              </span>
+              {/* welcome message */}
+              <h2 className=" text-third md:text-5xl text-2xl font-bold my-8">
+                Welcome to Relaxly Modern Hotel Rooms and Services
+              </h2>
+
+              {/* text */}
+              <p className="text-gray-500 text-justify font-roboto">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. Lorem
+                Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+
+              {/* hotel about counter */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
+                <div className="p-10 shadow text-center rounded">
+                  <span class=" text-secondary text-[50px] material-symbols-outlined">
+                    apartment
+                  </span>
+                  <h3 className=" text-2xl font-bold">500</h3>
+                  <span className="text-gray-500">Rooms</span>
+                </div>
+                {/* rooms */}
+
+                <div className="p-10 shadow text-center rounded">
+                  <span class=" text-secondary text-[50px] material-symbols-outlined">
+                    account_circle
+                  </span>
+                  <h3 className=" text-2xl font-bold">1500</h3>
+                  <span className="text-gray-500">Customers</span>
+                </div>
+                {/* rooms */}
+
+                <div className="p-10 shadow text-center rounded">
+                  <span class=" text-secondary text-[50px] material-symbols-outlined">
+                    local_shipping
+                  </span>
+                  <h3 className=" text-2xl font-bold">300</h3>
+                  <span className="text-gray-500">Amenities</span>
+                </div>
+                {/* rooms */}
+
+                <div className="p-10 shadow text-center rounded">
+                  <span class=" text-secondary text-[50px] material-symbols-outlined">
+                    percent
+                  </span>
+                  <h3 className=" text-2xl font-bold">230</h3>
+                  <span className="text-gray-500">Packages</span>
+                </div>
+                {/* rooms */}
+                <div className="my-8">
+                  <PrimaryButton></PrimaryButton>
+                </div>
+              </div>
             </div>
           </div>
-          {/* image  */}
-          {/* about section */}
-          <div className=" col-span-4">
-            {/* title */}
-            <span className=" text-secondary text-2xl font-roboto font-bold">
-              About Us
-            </span>
-            {/* welcome message */}
-            <h2 className=" text-third md:text-5xl text-2xl font-bold my-8">
-              Welcome to Relaxly Modern Hotel Rooms and Services
-            </h2>
-
-            {/* text */}
-            <p className="text-gray-500 text-justify font-roboto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. Lorem Ipsum is
-              simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book.
-            </p>
-
-            {/* hotel about counter */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
-              <div className="p-10 shadow text-center rounded">
-                <span class=" text-secondary text-[50px] material-symbols-outlined">
-                  apartment
-                </span>
-                <h3 className=" text-2xl font-bold">500</h3>
-                <span className="text-gray-500">Rooms</span>
-              </div>
-              {/* rooms */}
-
-              <div className="p-10 shadow text-center rounded">
-                <span class=" text-secondary text-[50px] material-symbols-outlined">
-                  account_circle
-                </span>
-                <h3 className=" text-2xl font-bold">1500</h3>
-                <span className="text-gray-500">Customers</span>
-              </div>
-              {/* rooms */}
-
-              <div className="p-10 shadow text-center rounded">
-                <span class=" text-secondary text-[50px] material-symbols-outlined">
-                  local_shipping
-                </span>
-                <h3 className=" text-2xl font-bold">300</h3>
-                <span className="text-gray-500">Amenities</span>
-              </div>
-              {/* rooms */}
-
-              <div className="p-10 shadow text-center rounded">
-                <span class=" text-secondary text-[50px] material-symbols-outlined">
-                  percent
-                </span>
-                <h3 className=" text-2xl font-bold">230</h3>
-                <span className="text-gray-500">Packages</span>
-              </div>
-              {/* rooms */}
-              <div className="my-8">
-                <PrimaryButton></PrimaryButton>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
 
       {/* choose your offer */}
-      <section className="my-24 container ">
-        {/* metatitle */}
-        <MetaTitle name="Choose your offer" align="text-center"></MetaTitle>
-        <Title name="One More Offer For You!" align="text-center"></Title>
-        <section className="grid md:grid-cols-3 gap-6 my-16">
-          <div className=" col-span-1 bg-primary  border rounded-xl">
-            <div className="relative  ">
-              <img
-                className=" opacity-60 rounded-xl"
-                src="/images/offer1.jpg"
-                alt=""
-              />
-              <div className=" absolute top-0 p-4">
-                <span className="text-4xl font-bold text-white font-quicksand">
-                  Worl tour
-                </span>
-                <p className=" text-justify text-md text-gray-200 my-3">
-                  Get the best international offers and deals world tour
-                  packages from here.
-                </p>
-                <PrimaryButton
-                  name="Book Now"
-                  align="text-left"
-                ></PrimaryButton>
+      <section className="text-gray-50">
+        <section className="my-24 container ">
+          {/* metatitle */}
+          <MetaTitle name="Choose your offer" align="text-center"></MetaTitle>
+          <Title name="One More Offer For You!" align="text-center"></Title>
+          <section className="grid md:grid-cols-3 gap-6 my-16">
+            <div className=" col-span-1 bg-primary  border rounded-xl">
+              <div className="relative  ">
+                <img
+                  className=" opacity-60 rounded-xl"
+                  src="/images/offer1.jpg"
+                  alt=""
+                />
+                <div className=" absolute top-0 p-4">
+                  <span className="text-4xl font-bold text-white font-quicksand">
+                    Worl tour
+                  </span>
+                  <p className=" text-justify text-md text-gray-200 my-3">
+                    Get the best international offers and deals world tour
+                    packages from here.
+                  </p>
+                  <PrimaryButton
+                    name="Book Now"
+                    align="text-left"
+                  ></PrimaryButton>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className=" col-span-1 bg-primary rounded-xl">
-            <div className="relative  ">
-              <img
-                className=" rounded-xl  opacity-60"
-                src="/images/offer2.jpg"
-                alt=""
-              />
-              <div className=" absolute top-0 p-4">
-                <span className="text-4xl font-bold text-white font-quicksand">
-                  Hot Air Balloon
-                </span>
-                <p className=" text-justify text-md text-gray-200 my-3">
-                  Get the best international offers and deals world tour
-                  packages from here.
-                </p>
-                <PrimaryButton
-                  name="Book Now"
-                  align="text-left"
-                ></PrimaryButton>
+            <div className=" col-span-1 bg-primary rounded-xl">
+              <div className="relative  ">
+                <img
+                  className=" rounded-xl  opacity-60"
+                  src="/images/offer2.jpg"
+                  alt=""
+                />
+                <div className=" absolute top-0 p-4">
+                  <span className="text-4xl font-bold text-white font-quicksand">
+                    Hot Air Balloon
+                  </span>
+                  <p className=" text-justify text-md text-gray-200 my-3">
+                    Get the best international offers and deals world tour
+                    packages from here.
+                  </p>
+                  <PrimaryButton
+                    name="Book Now"
+                    align="text-left"
+                  ></PrimaryButton>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className=" col-span-1 bg-primary rounded-xl">
-            <div className="relative">
-              <img
-                className="opacity-60 rounded-xl"
-                src="/images/offer3.jpg"
-                alt=""
-              />
-              <div className=" absolute top-0 p-4">
-                <span className="text-4xl font-bold text-white font-quicksand">
-                  Mountainous Offer
-                </span>
-                <p className=" text-justify text-md text-gray-200 my-3">
-                  Get the best international offers and deals world tour
-                  packages from here.
-                </p>
-                <PrimaryButton
-                  name="Book Now"
-                  align="text-left"
-                ></PrimaryButton>
+            <div className=" col-span-1 bg-primary rounded-xl">
+              <div className="relative">
+                <img
+                  className="opacity-60 rounded-xl"
+                  src="/images/offer3.jpg"
+                  alt=""
+                />
+                <div className=" absolute top-0 p-4">
+                  <span className="text-4xl font-bold text-white font-quicksand">
+                    Mountainous Offer
+                  </span>
+                  <p className=" text-justify text-md text-gray-200 my-3">
+                    Get the best international offers and deals world tour
+                    packages from here.
+                  </p>
+                  <PrimaryButton
+                    name="Book Now"
+                    align="text-left"
+                  ></PrimaryButton>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </section>
       </section>
 
@@ -655,7 +659,7 @@ export const Home = () => {
       </section>
 
       {/* our blog */}
-      <section className=" bg-gray-50">
+      <section className=" bg-gray-100">
         <section className="container py-24">
           <MetaTitle name="Our Blogs" align="text-center"></MetaTitle>
           <Title name="Latest Blog & News" align="text-center"></Title>

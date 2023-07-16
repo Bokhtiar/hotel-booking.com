@@ -463,9 +463,108 @@ export const Home = () => {
               </div>
             </div>
             {/* end of room */}
-
           </section>
         </div>
+      </section>
+
+      {/* hostel service */}
+      <section className=" bg-gray-50">
+        <section className="container py-24">
+          <MetaTitle name="Our Services" align="text-center"></MetaTitle>
+          <Title name="Our Hotel Services" align="text-center"></Title>
+          <div className="text-center text-gray-600 text-md mt-4 font-roboto">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's <br /> standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make <br /> a type specimen book.
+          </div>
+
+          <div className="my-24">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-2">
+              <div className="flex border rounded-lg py-7 px-7 hover:shadow-2xl">
+                <div className="m-auto text-center">
+                  <img src="/images/s.png " className="mx-auto" alt="" />
+                  <h3 className="text-3xl text-third my-3 font-bold">Gym</h3>
+                  <p className="text-gray-500">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              {/* serviece end */}
+
+              <div className="flex border rounded-lg py-7 px-7 hover:shadow-2xl">
+                <div className="m-auto text-center">
+                  <img src="/images/s2.png " className="mx-auto" alt="" />
+                  <h3 className="text-3xl text-third my-3 font-bold">
+                    Breakfast
+                  </h3>
+                  <p className="text-gray-500">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              {/* serviece end */}
+
+              <div className="flex border rounded-lg py-7 px-7 hover:shadow-2xl">
+                <div className="m-auto text-center">
+                  <img src="/images/s3.png " className="mx-auto" alt="" />
+                  <h3 className="text-3xl text-third my-3 font-bold">
+                    Swimming Pool
+                  </h3>
+                  <p className="text-gray-500">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              {/* serviece end */}
+
+              <div className="flex border rounded-lg py-7 px-7 hover:shadow-2xl">
+                <div className="m-auto text-center">
+                  <img src="/images/s.png " className="mx-auto" alt="" />
+                  <h3 className="text-3xl text-third my-3 font-bold">
+                    Quality Rooms
+                  </h3>
+                  <p className="text-gray-500">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              {/* serviece end */}
+
+              <div className="flex border rounded-lg py-7 px-7 hover:shadow-2xl">
+                <div className="m-auto text-center">
+                  <img src="/images/s.png " className="mx-auto" alt="" />
+                  <h3 className="text-3xl text-third my-3 font-bold">
+                    Parking Space
+                  </h3>
+                  <p className="text-gray-500">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              {/* serviece end */}
+
+              <div className="flex border rounded-lg py-7 px-7 hover:shadow-2xl">
+                <div className="m-auto text-center">
+                  <img src="/images/s.png " className="mx-auto" alt="" />
+                  <h3 className="text-3xl text-third my-3 font-bold">
+                    Pick Up & Drop
+                  </h3>
+                  <p className="text-gray-500">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              {/* serviece end */}
+            </div>
+          </div>
+        </section>
       </section>
     </section>
   );

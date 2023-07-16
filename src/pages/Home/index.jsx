@@ -1,36 +1,38 @@
+import { Link } from "react-router-dom";
 import { PrimaryButton } from "../../components/button";
+import { MetaTitle, Title } from "../../components/title";
 
 export const Home = () => {
   const myStyle = {
     backgroundImage:
       "linear-gradient(rgba(45,18,104, 0.7), rgba(45,18,104, 0.7)),url('/images/banner.jpg')",
     backgroundSize: "cover",
-    opacity: 0.5,
   };
 
   return (
-    <section>
+    <section className=" ">
       {/* banner area  */}
-      <div
-        className=" md:h-[800px] h-[600px] h-screen flex items-center justify-center static"
-        style={myStyle}
-      >
-        <div className="text-center md:w-[750px] w-full ">
-          <h2 className="text-white md:text-7xl text-4xl font-nunito font-black">
-            Enjoy Your Beautiful Moment
-          </h2>
-          <p className=" text-white text-[16px] my-7">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book
-          </p>
-          <button className="btn bg-secondary text-white px-7 border-secondary rounded-full text-md">
-            Booking Now
-          </button>
+      <div className="bg-primary">
+        <div
+          className=" md:h-[800px] h-[600px] h-screen flex items-center justify-center static opacity-100"
+          style={myStyle}
+        >
+          <div className="text-center md:w-[750px] w-full ">
+            <h2 className="text-white md:text-7xl text-4xl font-nunito font-black">
+              Enjoy Your Beautiful Moment
+            </h2>
+            <p className=" text-white text-[16px] my-7">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book
+            </p>
+            <button className="btn bg-secondary text-white px-7 border-secondary rounded-full text-md">
+              Booking Now
+            </button>
+          </div>
         </div>
       </div>
-
       <div className="bg-white py-16 shadow-2xl container md:flex items-center absolute md:bottom-10 bottom-[-55%] md:left-[13%] ">
         <div className="mx-2">
           <label htmlFor="" className="font-bold text-gray-600">
@@ -102,7 +104,7 @@ export const Home = () => {
         <div className="  grid grid-cols-2 md:grid-cols-7 gap-4">
           <div className="col-span-3">
             <div className="">
-              <img src="/images/a1.jpg" className=" rounded" alt="" />
+              <img className=" rounded" src="/images/a1.jpg" alt="" />
             </div>
             <div className="grid grid-cols-2 mt-4 items-center gap-5">
               <img className="rounded" src="/images/a2.jpg" alt="" />
@@ -179,8 +181,291 @@ export const Home = () => {
       </section>
 
       {/* choose your offer */}
-      <section>
-        <h3  className="">Choose your offer</h3>
+      <section className="my-24 container">
+        {/* metatitle */}
+        <MetaTitle name="Choose your offer" align="text-center"></MetaTitle>
+        <Title name="One More Offer For You!" align="text-center"></Title>
+        <section className="grid md:grid-cols-3 gap-6 my-16">
+          <div className=" col-span-1 bg-primary  border rounded-xl">
+            <div className="relative  ">
+              <img
+                className=" opacity-60 rounded-xl"
+                src="/images/offer1.jpg"
+                alt=""
+              />
+              <div className=" absolute top-0 p-4">
+                <span className="text-4xl font-bold text-white font-quicksand">
+                  Worl tour
+                </span>
+                <p className=" text-justify text-md text-gray-200 my-3">
+                  Get the best international offers and deals world tour
+                  packages from here.
+                </p>
+                <PrimaryButton
+                  name="Book Now"
+                  align="text-left"
+                ></PrimaryButton>
+              </div>
+            </div>
+          </div>
+
+          <div className=" col-span-1 bg-primary rounded-xl">
+            <div className="relative  ">
+              <img
+                className=" rounded-xl  opacity-60"
+                src="/images/offer2.jpg"
+                alt=""
+              />
+              <div className=" absolute top-0 p-4">
+                <span className="text-4xl font-bold text-white font-quicksand">
+                  Hot Air Balloon
+                </span>
+                <p className=" text-justify text-md text-gray-200 my-3">
+                  Get the best international offers and deals world tour
+                  packages from here.
+                </p>
+                <PrimaryButton
+                  name="Book Now"
+                  align="text-left"
+                ></PrimaryButton>
+              </div>
+            </div>
+          </div>
+
+          <div className=" col-span-1 bg-primary rounded-xl">
+            <div className="relative">
+              <img
+                className="opacity-60 rounded-xl"
+                src="/images/offer3.jpg"
+                alt=""
+              />
+              <div className=" absolute top-0 p-4">
+                <span className="text-4xl font-bold text-white font-quicksand">
+                  Mountainous Offer
+                </span>
+                <p className=" text-justify text-md text-gray-200 my-3">
+                  Get the best international offers and deals world tour
+                  packages from here.
+                </p>
+                <PrimaryButton
+                  name="Book Now"
+                  align="text-left"
+                ></PrimaryButton>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      {/* choose your room */}
+      <section className=" bg-gray-100">
+        <div className="container py-24">
+          <MetaTitle name="Choose your Rooms" align="text-center"></MetaTitle>
+          <Title name="Featured Rooms" align="text-center"></Title>
+          <div className="text-center text-gray-600 text-md mt-4 font-roboto">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's <br /> standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make <br /> a type specimen book.
+          </div>
+
+          {/* room list */}
+
+          <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-32 ">
+            <div className="bg-white rounded-2xl ">
+              <img src="/images/r1.jpg" className="w-full rounded-2xl" alt="" />
+              <p className="px-4 py-4  bg-white rounded">
+                <span className="text-2xl font-bold text-third">
+                  Deluxe Single Room
+                </span>
+                <br />
+                <span className="font-semibold">
+                  <strong className="text-xl">$200.00</strong> / Night
+                </span>
+              </p>
+
+              {/* room details */}
+              <div className="flex items-center justify-between">
+                <Link
+                  to=""
+                  className="bg-secondary text-white p-2 rounded-e-2xl text-xl px-8"
+                >
+                  Details
+                </Link>
+                <div className="flex items-center gap-2 ">
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Adult 2
+                  </span>
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Child 2
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* end of room */}
+
+            <div className="bg-white rounded-2xl ">
+              <img src="/images/r2.jpg" className="w-full rounded-2xl" alt="" />
+              <p className="px-4 py-4  bg-white rounded">
+                <span className="text-2xl font-bold text-third">
+                  Deluxe Single Room
+                </span>
+                <br />
+                <span className="font-semibold">
+                  <strong className="text-xl">$200.00</strong> / Night
+                </span>
+              </p>
+
+              {/* room details */}
+              <div className="flex items-center justify-between">
+                <Link
+                  to=""
+                  className="bg-secondary text-white p-2 rounded-e-2xl text-xl px-8"
+                >
+                  Details
+                </Link>
+                <div className="flex items-center gap-2 ">
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Adult 2
+                  </span>
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Child 2
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* end of room */}
+
+            <div className="bg-white rounded-2xl ">
+              <img src="/images/r3.jpg" className="w-full rounded-2xl" alt="" />
+              <p className="px-4 py-4  bg-white rounded">
+                <span className="text-2xl font-bold text-third">
+                  Deluxe Single Room
+                </span>
+                <br />
+                <span className="font-semibold">
+                  <strong className="text-xl">$200.00</strong> / Night
+                </span>
+              </p>
+
+              {/* room details */}
+              <div className="flex items-center justify-between">
+                <Link
+                  to=""
+                  className="bg-secondary text-white p-2 rounded-e-2xl text-xl px-8"
+                >
+                  Details
+                </Link>
+                <div className="flex items-center gap-2 ">
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Adult 2
+                  </span>
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Child 2
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* end of room */}
+
+            <div className="bg-white rounded-2xl ">
+              <img src="/images/r4.jpg" className="w-full rounded-2xl" alt="" />
+              <p className="px-4 py-4  bg-white rounded">
+                <span className="text-2xl font-bold text-third">
+                  Deluxe Single Room
+                </span>
+                <br />
+                <span className="font-semibold">
+                  <strong className="text-xl">$200.00</strong> / Night
+                </span>
+              </p>
+
+              {/* room details */}
+              <div className="flex items-center justify-between">
+                <Link
+                  to=""
+                  className="bg-secondary text-white p-2 rounded-e-2xl text-xl px-8"
+                >
+                  Details
+                </Link>
+                <div className="flex items-center gap-2 ">
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Adult 2
+                  </span>
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Child 2
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* end of room */}
+
+            <div className="bg-white rounded-2xl ">
+              <img src="/images/r5.jpg" className="w-full rounded-2xl" alt="" />
+              <p className="px-4 py-4  bg-white rounded">
+                <span className="text-2xl font-bold text-third">
+                  Deluxe Single Room
+                </span>
+                <br />
+                <span className="font-semibold">
+                  <strong className="text-xl">$200.00</strong> / Night
+                </span>
+              </p>
+
+              {/* room details */}
+              <div className="flex items-center justify-between">
+                <Link
+                  to=""
+                  className="bg-secondary text-white p-2 rounded-e-2xl text-xl px-8"
+                >
+                  Details
+                </Link>
+                <div className="flex items-center gap-2 ">
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Adult 2
+                  </span>
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Child 2
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* end of room */}
+
+            <div className="bg-white rounded-2xl ">
+              <img src="/images/r6.jpg" className="w-full rounded-2xl" alt="" />
+              <p className="px-4 py-4  bg-white rounded">
+                <span className="text-2xl font-bold text-third">
+                  Deluxe Single Room
+                </span>
+                <br />
+                <span className="font-semibold">
+                  <strong className="text-xl">$200.00</strong> / Night
+                </span>
+              </p>
+
+              {/* room details */}
+              <div className="flex items-center justify-between">
+                <Link
+                  to=""
+                  className="bg-secondary text-white p-2 rounded-e-2xl text-xl px-8"
+                >
+                  Details
+                </Link>
+                <div className="flex items-center gap-2 ">
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Adult 2
+                  </span>
+                  <span className="btn btn-sm rounded-bl-3xl rounded-tr-3xl text-gray-600">
+                    Child 2
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* end of room */}
+
+          </section>
+        </div>
       </section>
     </section>
   );

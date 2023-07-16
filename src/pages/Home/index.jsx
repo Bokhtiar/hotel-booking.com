@@ -33,7 +33,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white py-16 shadow-2xl container md:flex items-center absolute md:bottom-10 bottom-[-55%] md:left-[13%] rounded">
+      <div className="bg-white py-16 shadow-2xl container md:flex items-center absolute md:bottom-10 bottom-[-40%] md:left-[12%] rounded">
         <div className="mx-2">
           <label htmlFor="" className="font-bold text-gray-600">
             Check in
@@ -100,7 +100,7 @@ export const Home = () => {
       </div>
 
       {/* about section */}
-      <section className="text-gray-50">
+      <section className="bg-gray-50 p-12">
         <section className="mt-80 md:mt-48 container ">
           <div className="  grid grid-cols-2 md:grid-cols-7 gap-4">
             <div className="col-span-3">
@@ -183,8 +183,8 @@ export const Home = () => {
       </section>
 
       {/* choose your offer */}
-      <section className="text-gray-50">
-        <section className="my-24 container ">
+      <section className="bg-gray-50 p-12">
+        <section className="mb-24 container ">
           {/* metatitle */}
           <MetaTitle name="Choose your offer" align="text-center"></MetaTitle>
           <Title name="One More Offer For You!" align="text-center"></Title>

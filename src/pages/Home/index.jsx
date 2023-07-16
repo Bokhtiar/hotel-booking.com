@@ -566,6 +566,203 @@ export const Home = () => {
           </div>
         </section>
       </section>
+
+      {/* cleint service */}
+      <section className=" bg-gray-100">
+        <section className="container py-24">
+          <MetaTitle name="Testimonial" align="text-center"></MetaTitle>
+          <Title name="What Our Clients Says" align="text-center"></Title>
+          <div className="text-center text-gray-600 text-md mt-4 font-roboto">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's <br /> standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make <br /> a type specimen book.
+          </div>
+
+          <div className="mt-24">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-2">
+              <div className="border p-10 hover:shadow-xl rounded-xl">
+                <div className="flex gap-4">
+                  <img
+                    src="/images/c1.jpg "
+                    className="rounded-full h-24 w-24"
+                    alt=""
+                  />
+                  <p className="my-auto">
+                    <span className="font-bold text-3xl">Jhon</span>
+                    <br />
+                    <span className="">Client</span>
+                  </p>
+                </div>
+                <p className="text-gray-500 mt-5">
+                  <span class="material-symbols-outlined text-secondary text-4xl">
+                    format_quote
+                  </span>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              {/* client end */}
+
+              <div className="border p-10 hover:shadow-xl rounded-xl">
+                <div className="flex gap-4">
+                  <img
+                    src="/images/c2.jpg "
+                    className="rounded-full h-24 w-24"
+                    alt=""
+                  />
+                  <p className="my-auto">
+                    <span className="font-bold text-3xl">Jhon</span>
+                    <br />
+                    <span className="">Client</span>
+                  </p>
+                </div>
+                <p className="text-gray-500 mt-5">
+                  <span class="material-symbols-outlined text-secondary text-4xl">
+                    format_quote
+                  </span>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              {/* client end */}
+
+              <div className="border p-10 hover:shadow-xl rounded-xl">
+                <div className="flex gap-4">
+                  <img
+                    src="/images/c3.jpg "
+                    className="rounded-full h-24 w-24"
+                    alt=""
+                  />
+                  <p className="my-auto">
+                    <span className="font-bold text-3xl">Jhon</span>
+                    <br />
+                    <span className="">Client</span>
+                  </p>
+                </div>
+                <p className="text-gray-500 mt-5">
+                  <span class="material-symbols-outlined text-secondary text-4xl">
+                    format_quote
+                  </span>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              {/* client end */}
+            </div>
+          </div>
+        </section>
+      </section>
+
+      {/* our blog */}
+      <section className=" bg-gray-50">
+        <section className="container py-24">
+          <MetaTitle name="Our Blogs" align="text-center"></MetaTitle>
+          <Title name="Latest Blog & News" align="text-center"></Title>
+          <div className="text-center text-gray-600 text-md mt-4 font-roboto">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's <br /> standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make <br /> a type specimen book.
+          </div>
+
+          <div className="my-24">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-32 ">
+              <div className="bg-white  rounded my-2">
+                <img src="/images/b1.jpg" className="w-full  rounded" alt="" />
+                <section className="px-4 py-2  bg-white rounded">
+                  <div className="flex items-center justify-between">
+                    <p className="flex items-center gap-2">
+                      <span class="material-symbols-outlined">schedule</span>
+                      <span>12 july 2023</span>
+                    </p>
+
+                    <p className="flex items-center gap-2">
+                      <span class="material-symbols-outlined">person</span>
+                      <span>Admin</span>
+                    </p>
+                  </div>
+
+                  <p className="text-3xl text-third font-bold py-5 ">
+                    Dolor sed viverra ipsum nunc aliquet
+                  </p>
+                  <div className="mb-2 flex">
+                    <Link className=" font-semibold text-gray-600" to="/">
+                      Read More
+                    </Link>
+                    <span class="material-symbols-outlined">
+                      arrow_right_alt
+                    </span>
+                  </div>
+                </section>
+              </div>
+              {/* end of blog */}
+
+              <div className="bg-white  rounded my-2">
+                <img src="/images/b2.jpg" className="w-full  rounded" alt="" />
+                <section className="px-4 py-2  bg-white rounded">
+                  <div className="flex items-center justify-between">
+                    <p className="flex items-center gap-2">
+                      <span class="material-symbols-outlined">schedule</span>
+                      <span>12 july 2023</span>
+                    </p>
+
+                    <p className="flex items-center gap-2">
+                      <span class="material-symbols-outlined">person</span>
+                      <span>Admin</span>
+                    </p>
+                  </div>
+
+                  <p className="text-3xl text-third font-bold py-5 ">
+                    Fermentum leo vel orci porta non pulvinar
+                  </p>
+                  <div className="mb-2 flex">
+                    <Link className=" font-semibold text-gray-600" to="/">
+                      Read More
+                    </Link>
+                    <span class="material-symbols-outlined">
+                      arrow_right_alt
+                    </span>
+                  </div>
+                </section>
+              </div>
+              {/* end of blog */}
+
+              <div className="bg-white  rounded my-2">
+                <img src="/images/b3.jpg" className="w-full  rounded" alt="" />
+                <section className="px-4 py-2  bg-white rounded">
+                  <div className="flex items-center justify-between">
+                    <p className="flex items-center gap-2">
+                      <span class="material-symbols-outlined">schedule</span>
+                      <span>12 july 2023</span>
+                    </p>
+
+                    <p className="flex items-center gap-2">
+                      <span class="material-symbols-outlined">person</span>
+                      <span>Admin</span>
+                    </p>
+                  </div>
+
+                  <p className="text-3xl text-third font-bold py-5 ">
+                    Lectus nulla at volutpat diam ut venenatis
+                  </p>
+                  <div className="mb-2 flex">
+                    <Link className=" font-semibold text-gray-600" to="/">
+                      Read More
+                    </Link>
+                    <span class="material-symbols-outlined">
+                      arrow_right_alt
+                    </span>
+                  </div>
+                </section>
+              </div>
+              {/* end of blog */}
+            </div>
+          </div>
+        </section>
+      </section>
+
+      
     </section>
   );
 };

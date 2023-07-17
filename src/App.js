@@ -12,7 +12,7 @@ export const App = ()=> {
     children: [
       { path: "*", element: <Navigate to="/404" /> },
       { path: "", element: <Home /> },
-      { path: "about", element: <About /> },
+      { path: "about-us", element: <About /> },
     ],
   };
 

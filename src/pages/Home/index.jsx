@@ -100,7 +100,7 @@ export const Home = () => {
       </div>
 
       {/* about section */}
-      <section className="bg-gray-50 p-12">
+      <section className="bg-gray-50 py-12">
         <section className="mt-80 md:mt-48 container ">
           <div className="  grid grid-cols-2 md:grid-cols-7 gap-4">
             <div className="col-span-3">
@@ -183,7 +183,7 @@ export const Home = () => {
       </section>
 
       {/* choose your offer */}
-      <section className="bg-gray-50 p-12">
+      <section className="bg-gray-50 py-12">
         <section className="mb-24 container ">
           {/* metatitle */}
           <MetaTitle name="Choose your offer" align="text-center"></MetaTitle>

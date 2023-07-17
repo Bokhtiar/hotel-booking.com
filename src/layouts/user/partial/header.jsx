@@ -36,7 +36,7 @@ export const Header = () => {
                 <span class="material-symbols-outlined text-[18px]">
                   person
                 </span>
-                <span>Login</span>
+                <span> <Link to="login">Login</Link> </span>
               </div>
             </section>
           </section>

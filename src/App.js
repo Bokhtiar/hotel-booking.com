@@ -7,6 +7,7 @@ import { Navigate, useRoutes } from "react-router-dom";
 import { MainLayout } from './layouts/user/partial/main.layout';
 import { Blog } from './pages/Blog';
 import { Contact } from './pages/Contact';
+import { Login } from './pages/Auth/Login';
 
 export const App = ()=> {
   const mainRoutes = {
@@ -19,6 +20,7 @@ export const App = ()=> {
       { path: "hotel", element: <Hotel /> },
       { path: "blog", element: <Blog /> },
       { path: "contact-us", element: <Contact /> },
+      { path: "login", element: <Login /> },
     ],
   };
 

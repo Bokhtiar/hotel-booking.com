@@ -8,6 +8,7 @@ import { MainLayout } from './layouts/user/partial/main.layout';
 import { Blog } from './pages/Blog';
 import { Contact } from './pages/Contact';
 import { Login } from './pages/Auth/Login';
+import { Register } from './pages/Auth/Register';
 
 export const App = ()=> {
   const mainRoutes = {
@@ -21,6 +22,7 @@ export const App = ()=> {
       { path: "blog", element: <Blog /> },
       { path: "contact-us", element: <Contact /> },
       { path: "login", element: <Login /> },
+      { path: "register", element: <Register /> },
     ],
   };
 

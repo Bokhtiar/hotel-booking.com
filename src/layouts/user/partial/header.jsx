@@ -29,14 +29,19 @@ export const Header = () => {
                 <span class="material-symbols-outlined text-[18px]">
                   person_add
                 </span>
-                <span>Register</span>
+                <span>
+                  <Link to="register">Register</Link>
+                </span>
               </div>
               {/* register*/}
               <div className="flex gap-1 items-center">
                 <span class="material-symbols-outlined text-[18px]">
                   person
                 </span>
-                <span> <Link to="login">Login</Link> </span>
+                <span>
+                  {" "}
+                  <Link to="login">Login</Link>{" "}
+                </span>
               </div>
             </section>
           </section>

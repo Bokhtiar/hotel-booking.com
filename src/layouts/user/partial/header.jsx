@@ -66,10 +66,10 @@ export const Header = () => {
               </li>
 
               <li>
-                <Link to="/">Blog</Link>
+                <Link to="/blog">Blog</Link>
               </li>
               <li>
-                <Link to="/">Contact Us</Link>
+                <Link to="/contact-us">Contact Us</Link>
               </li>
 
               {/* <li tabIndex={0}>

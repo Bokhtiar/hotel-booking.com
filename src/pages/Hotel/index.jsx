@@ -11,13 +11,13 @@ export const Hotel = () => {
             alt=""
           />
           <div className=" absolute top-10 inset-0 w-96 h-24 mx-auto my-auto text-center text-white">
-            <h3 className="text-4xl md:text-6xl font-bold ">About Us</h3>
+            <h3 className="text-4xl md:text-6xl font-bold ">Hotel</h3>
             <Link to="" className="font-bold ">
               Home
             </Link>
             <span className="px-2">/</span>
             <Link className="font-bold" to="">
-              About us
+              Hotel
             </Link>
           </div>
         </div>

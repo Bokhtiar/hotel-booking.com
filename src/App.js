@@ -5,6 +5,8 @@ import { About } from '../src/pages/About/index'
 import { permittedRoutes } from '../src/routes/index'
 import { Navigate, useRoutes } from "react-router-dom";
 import { MainLayout } from './layouts/user/partial/main.layout';
+import { Blog } from './pages/Blog';
+import { Contact } from './pages/Contact';
 
 export const App = ()=> {
   const mainRoutes = {
@@ -15,6 +17,8 @@ export const App = ()=> {
       { path: "", element: <Home /> },
       { path: "about-us", element: <About /> },
       { path: "hotel", element: <Hotel /> },
+      { path: "blog", element: <Blog /> },
+      { path: "contact-us", element: <Contact /> },
     ],
   };
 

@@ -119,12 +119,20 @@ export const Header = () => {
                 </li>
 
                 <li>
-                  <Link to="/">About Us</Link>
+                  <Link to="/about-us">About Us</Link>
                 </li>
 
                 <li>
-                  <Link to="/">Hotel</Link>
+                  <Link to="/hotel">Hotel</Link>
                 </li>
+
+                <li>
+                  <Link to="/blog">Blog</Link>
+                </li>
+                <li>
+                  <Link to="/contact-us">Contact Us</Link>
+                </li>
+
                 {/* <li>
                   <Link to="/">Parent</Link>
                   <ul className="p-2">

@@ -1,4 +1,5 @@
 import './App.css';
+import { Hotel } from './pages/Hotel';
 import { Home } from '../src/pages/Home/index'
 import { About } from '../src/pages/About/index'
 import { permittedRoutes } from '../src/routes/index'
@@ -13,6 +14,7 @@ export const App = ()=> {
       { path: "*", element: <Navigate to="/404" /> },
       { path: "", element: <Home /> },
       { path: "about-us", element: <About /> },
+      { path: "hotel", element: <Hotel /> },
     ],
   };
 

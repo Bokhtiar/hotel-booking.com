@@ -62,7 +62,7 @@ export const Header = () => {
               </li>
 
               <li>
-                <Link to="/">Hotel</Link>
+                <Link to="/hotel">Hotel</Link>
               </li>
 
               <li>
